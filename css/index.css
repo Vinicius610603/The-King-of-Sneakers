@@ -1,0 +1,54 @@
+footer {
+        position: absolute;
+        bottom: 0;
+}
+
+body {
+        background-color: #2260a7; 
+        color:white;
+}
+
+img {
+        width: 150px; 
+        height: 150px;
+}
+
+section{
+    /*tamanho vertical*/
+    height: 400px;
+
+    /*atributos da imagel*/
+    background:black;
+    background-size: cover;
+    background-image:url(../assets/Air-Jordan-1-Retro-High-OG-True-Blue-White-Cement-Grey-DZ5485-410--12-30-22--feature02.jpg);
+    background-repeat: no-repeat;
+
+    /*filter*/
+    filter: grayscale(0%);
+    box-shadow: inset 3px 5px 10px 20px #2260a7;
+
+    /*alinhamento*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.footer-style{
+    background: #c5c5c5;
+    color: black;
+    width: 1000px;
+    font-size: 12px;
+}
+.footer-font2{
+    color: gray;
+    padding-top: 6px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+}
+
+.pad-right{
+    padding-right: 8%;
+}

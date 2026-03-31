@@ -1,0 +1,64 @@
+.font-welcome{
+    font-size: 32px;
+    font-weight: bold;
+}
+.sub-welcome{
+    font-size: 16px;
+}
+.container-login{
+    display: flex;
+    height:100vh ;
+}
+.left{
+    width: 40%;
+    background:white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 50px;
+    display: grid;
+}
+.right{
+    width: 60%;
+    background:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+
+    /*atributos de imagem*/
+    background:black;
+    background-size: cover;
+    background-image:url(../assets/Air-Jordan-1-Retro-High-OG-True-Blue-White-Cement-Grey-DZ5485-410--12-30-22--feature02.jpg);
+    background-repeat: no-repeat;
+}
+.borda-login{
+    background:black;
+    background-size: cover;
+    background-image:url(../assets/R.jpg);
+    background-repeat: no-repeat; 
+    padding: 50px;   
+}
+.input-email-login{
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 25px;   
+}
+.input-senha-login{
+    margin-top: 20px;
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    padding: 10px;
+    border: 1px solid gray;
+    height: 25px;   
+}
+.caption{
+    font-size: 13px;
+    color: gray;
+}

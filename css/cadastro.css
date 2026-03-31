@@ -1,0 +1,55 @@
+img {
+    width: 150px; 
+    height: 150px;
+}
+
+.tam-text{
+    width: 90%;
+}
+
+.tam-icon{
+    width: 5%;
+}
+
+.top{
+    top: 80px;
+position: relative;
+}
+    
+.bg-page{
+    background: #2260a7;
+}
+
+.digite-email{
+    color: gray;       
+}
+
+.input-email{
+    margin: 15px;
+    width: 85%;
+    background: white;
+    border-radius: 4px;
+    padding: 9px;
+    border: 1px solid gray;
+    height: 25px;
+}
+
+.bt-google{
+    background: white;
+    border-radius: 4px;
+    padding: 9px;
+    border: 1px solid gray;
+    margin: 15px;
+    width: 90%;
+}
+    
+.borda {
+    width: 400px;
+    border: 1.7px solid #2260a7;
+    border-radius:10px;
+}
+
+.criar-conta {
+    display: flex;
+    justify-content: center;
+}
